@@ -1,14 +1,16 @@
 import './App.css'
-import Counter from './Components/Counter'
-import MyForm from './Components/MyForm'
-import TextInput from './Components/TextInput'
+import ChatInput from './Components/ChatInput'
+import ChatMessage from './Components/ChatMessage'
+// import Counter from './Components/Counter'
+// import MyForm from './Components/MyForm'
+// import TextInput from './Components/TextInput'
 function App() {
 
   return (
     <>
-        <Counter></Counter>
-    <TextInput></TextInput>
-    <MyForm></MyForm>
+    <ChatInput></ChatInput>
+    <ChatMessage message="Hello chatbot" sender="user"></ChatMessage>
+    <ChatMessage message="Hello! how can i help you today" sender="robot"></ChatMessage>
     </>
 
    
