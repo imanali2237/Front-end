@@ -1,4 +1,5 @@
 import './App.css'
+import Card from './Components/Card'
 import ChatInput from './Components/ChatInput'
 import ChatMessage from './Components/ChatMessage'
 import Counter from './Components/Counter'
@@ -8,8 +9,9 @@ import Counter from './Components/Counter'
 function App() {
 
   return (
-    <Counter></Counter>
-
+    // <Counter></Counter>
+    // <h1 className='bg-green-400'> Tailwind test</h1>
+    <Card btnText='Available soon'></Card>
    
   )
 }
